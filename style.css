@@ -1,0 +1,25 @@
+.calculadora{
+    width: 100%;
+    margin-top: 36px ;
+    text-align:center;
+}
+h1{
+    font-weight: lighter;
+}
+button{
+    margin-top: 10px;
+    opacity: 50%;
+    border-radius: 1em;
+    align-items: center;
+    font-size: 80%;
+    height: 30px;
+    width: 65px;
+}
+
+button:hover{
+    opacity: 100%;
+}
+button:active{
+    transform: translateY(1.5px);
+}
+
