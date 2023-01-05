@@ -13,6 +13,7 @@ window.onload = function(){
     btnComeço.onclick = function(){
         clearInterval(interval)
         interval = setInterval(starTimer,10)
+	    console.log('oi')
     }
 
     btnParar.onclick = function(){
