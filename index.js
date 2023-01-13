@@ -9,7 +9,7 @@ window.onload = function(){
     let btnComeço = document.getElementById('começo');
     let btnParar = document.getElementById('para')
     let btnReset = document.getElementById('reset')
-
+    
     btnComeço.onclick = function(){
         clearInterval(interval)
         interval = setInterval(starTimer,10)
